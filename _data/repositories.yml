@@ -1,12 +1,15 @@
 github_users:
-  - torvalds
-  - alshedivat
+  - hkllopp
 
 github_repos:
-  - alshedivat/al-folio
-  - twbs/bootstrap
-  - jekyll/jekyll
-  - jquery/jquery
-  - FortAwesome/Font-Awesome
-  - jpswalsh/academicons
-  - mathjax/MathJax
+  - hkllopp/hkllopp.github.io 
+  - dataforgoodfr/batch11_basta
+  - hkllopp/AOC2022 
+  - hkllopp/OpenFoodFacts-Data-Analysis
+  - hkllopp/data-segmentation
+  - hkllopp/D-tectez-les-Bad-Buzz-gr-ce-au-Deep-Learning
+  - hkllopp/NLP_and_ImageRecognition
+  - hkllopp/Clustering-Model-Designing
+  - hkllopp/Scoring-Model-Designing
+  - arnette-thomas/gmtk2021
+  - arnette-thomas/gmtkjam20
