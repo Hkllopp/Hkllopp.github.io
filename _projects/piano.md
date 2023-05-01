@@ -2,7 +2,7 @@
 layout: page
 title: Apprentissage du piano
 description: Mon défi de découvrir la musique, le solfège et le piano à 21 ans sans rien y connaitre
-img: assets/img/prof_pic.png
+img: assets/img/augustin_piano.png
 importance: 1
 category: personal
 ---
