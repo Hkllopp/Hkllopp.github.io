@@ -27,9 +27,9 @@ La fin de mon lycée passa tant bien que mal et j'ai obtenu des résultats de Ba
 
 Celles-ci m'ont quand même permis de postuler à plusieurs prépas d'écoles d'ingénieurs et j'ai été accepté à Telecom Saint Etienne, pour la [prépa intégrée Citise](https://www.telecom-st-etienne.fr/formation/prepa-integree-citise/).
 
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0" style="text-align: center;">
-    {% include figure.html path="assets/img/logo_telecom.jpg" title="logo_telecom_saint_etienne" class="img-fluid rounded z-depth-1" %}
+<div class="row justify-content-sm-center">
+    <div class="col-sm-8 mt-3 mt-md-0">
+        {% include figure.html path="assets/img/logo_telecom.jpg" title="logo_telecom_saint_etienne" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 
@@ -43,10 +43,9 @@ J'ai refusé le redoublement car ma seconde année de première m'avait laissé 
 
 Heureusement, j'ai profité de cette année moins exigeante pour faire de mon mieux et obtenir un bon bulletin pour  réintégrer une école d'ingénieur. J'ai également décidé de faire partie du club robotique où j'ai conçu avec mes collègues un robot capable de se déplacer seul et de participer à une course d'obstacle durant la coupe de robotique des IUT GEII.
 
-
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0" style="text-align: center;">
-    {% include figure.html path="assets/img/logo_cpe_lyon.jpg" title="logo_cpe_lyon" class="img-fluid rounded z-depth-1" %}
+<div class="row justify-content-sm-center">
+    <div class="col-sm-8 mt-3 mt-md-0">
+        {% include figure.html path="assets/img/logo_cpe_lyon.jpg" title="logo_cpe_lyon" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 
@@ -54,8 +53,8 @@ Heureusement, j'ai profité de cette année moins exigeante pour faire de mon mi
 
 Je me consacre de nouveau à candidater pour des écoles d'ingénieur et choisis en priorité des filières en alternance, permettant de couvrir mes frais de scolarité ainsi que d'obtenir de l'expérience professionnelle. Au final, je décroche un entretien pour l'école CPE Lyon dans leur filière en alternance et réussis à trouver une entreprise pour m'accueillir durant ces trois ans. Les deux premières années sont assez générales et m'interessent moins mais la troisième me permet de choisir la spécialité robotique et embarqués durant laquelle je m'épanouie vraiment. Je réalise alors un  modèle de deep learning avec du transfert learning pour mon projet de fin d'étude. Ce projet ainsi que le mémoire de mon alternance me permettent de sortir diplômé de mon école.
 
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0" style="text-align: center;">
+<div class="row justify-content-sm-center">
+    <div class="col-sm-8 mt-3 mt-md-0">
     {% include figure.html path="assets/img/logo_oc.png" title="logo_oc" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
