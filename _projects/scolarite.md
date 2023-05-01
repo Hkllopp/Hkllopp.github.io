@@ -2,7 +2,7 @@
 layout: page
 title: Parcours éducatif et professionel
 description: À propos de mon parcours, de ma scolarité à ma professionnalisation
-img: assets/img/logo_oc.png
+img: assets/img/augustin_eleve.jpeg
 importance: 1
 category: professional
 ---
