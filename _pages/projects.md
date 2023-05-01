@@ -6,7 +6,7 @@ description: "Une liste non exhaustive de mes projets"
 nav: true
 nav_order: 2
 display_categories: [professional, personal]
-horizontal: true
+horizontal: false
 ---
 
 <!-- pages/projects.md -->
