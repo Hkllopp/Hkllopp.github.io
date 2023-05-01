@@ -123,13 +123,13 @@
   <!-- Display categorized projects -->
   <h2 class="category">professional</h2>
   <!-- Generate cards for each project -->
-  <div class="container">
-    <div class="row row-cols-2">
-<div class="card-item col">
-<a href="/projets/1_project/"><div class="card hoverable">
-      <div class="row g-0">
-<div class="card-img col-md-6">
-          <figure>
+  <div class="grid">
+<!-- _includes/projects.html -->
+<div class="grid-sizer"></div>
+<div class="grid-item">
+  <a href="/projets/1_project/">
+      <div class="card hoverable">
+<figure>
 
   <picture>
     
@@ -145,55 +145,51 @@
 
 </figure>
 
-        </div>
-        <div class="col-md-6">
-<div class="card-body">
-            <h3 class="card-title text-lowercase">project 1</h3>
-            <p class="card-text">a project with a background image</p>
-            <div class="row ml-1 mr-1 p-0"></div>
+        <div class="card-body">
+          <h2 class="card-title text-lowercase">project 1</h2>
+          <p class="card-text">a project with a background image</p>
+          <div class="row ml-1 mr-1 p-0">
           </div>
         </div>
       </div>
-    </div>
-  </a>
+    </a>
 </div>
-<div class="card-item col">
-<a href="/projets/scolarite/"><div class="card hoverable">
-      <div class="row g-0">
-<div class="card-img col-md-6">
-          <figure>
+<!-- _includes/projects.html -->
+<div class="grid-sizer"></div>
+<div class="grid-item">
+  <a href="/projets/scolarite/">
+      <div class="card hoverable">
+<figure>
 
   <picture>
     
-    <source class="responsive-img-srcset" media="(max-width: 480px)" srcset="/assets/img/logo_oc-480.webp"></source>
-    <source class="responsive-img-srcset" media="(max-width: 800px)" srcset="/assets/img/logo_oc-800.webp"></source>
-    <source class="responsive-img-srcset" media="(max-width: 1400px)" srcset="/assets/img/logo_oc-1400.webp"></source>
+    <source class="responsive-img-srcset" media="(max-width: 480px)" srcset="/assets/img/augustin_eleve-480.webp"></source>
+    <source class="responsive-img-srcset" media="(max-width: 800px)" srcset="/assets/img/augustin_eleve-800.webp"></source>
+    <source class="responsive-img-srcset" media="(max-width: 1400px)" srcset="/assets/img/augustin_eleve-1400.webp"></source>
     
 
     <!-- Fallback to the original file -->
-    <img src="/assets/img/logo_oc.png" width="auto" height="auto" alt="project thumbnail" onerror="this.onerror=null; $('.responsive-img-srcset').remove();">
+    <img src="/assets/img/augustin_eleve.jpeg" width="auto" height="auto" alt="project thumbnail" onerror="this.onerror=null; $('.responsive-img-srcset').remove();">
 
   </picture>
 
 </figure>
 
-        </div>
-        <div class="col-md-6">
-<div class="card-body">
-            <h3 class="card-title text-lowercase">Parcours éducatif et professionel</h3>
-            <p class="card-text">À propos de mon parcours, de ma scolarité à ma professionnalisation</p>
-            <div class="row ml-1 mr-1 p-0"></div>
+        <div class="card-body">
+          <h2 class="card-title text-lowercase">Parcours éducatif et professionel</h2>
+          <p class="card-text">À propos de mon parcours, de ma scolarité à ma professionnalisation</p>
+          <div class="row ml-1 mr-1 p-0">
           </div>
         </div>
       </div>
-    </div>
-  </a>
+    </a>
 </div>
-<div class="card-item col">
-<a href="/projets/2_project/"><div class="card hoverable">
-      <div class="row g-0">
-<div class="card-img col-md-6">
-          <figure>
+<!-- _includes/projects.html -->
+<div class="grid-sizer"></div>
+<div class="grid-item">
+  <a href="/projets/2_project/">
+      <div class="card hoverable">
+<figure>
 
   <picture>
     
@@ -209,23 +205,21 @@
 
 </figure>
 
-        </div>
-        <div class="col-md-6">
-<div class="card-body">
-            <h3 class="card-title text-lowercase">project 2</h3>
-            <p class="card-text">a project with a background image</p>
-            <div class="row ml-1 mr-1 p-0"></div>
+        <div class="card-body">
+          <h2 class="card-title text-lowercase">project 2</h2>
+          <p class="card-text">a project with a background image</p>
+          <div class="row ml-1 mr-1 p-0">
           </div>
         </div>
       </div>
-    </div>
-  </a>
+    </a>
 </div>
-<div class="card-item col">
-<a href="https://unsplash.com" rel="external nofollow noopener" target="_blank"><div class="card hoverable">
-      <div class="row g-0">
-<div class="card-img col-md-6">
-          <figure>
+<!-- _includes/projects.html -->
+<div class="grid-sizer"></div>
+<div class="grid-item">
+  <a href="https://unsplash.com" rel="external nofollow noopener" target="_blank">
+      <div class="card hoverable">
+<figure>
 
   <picture>
     
@@ -241,44 +235,69 @@
 
 </figure>
 
-        </div>
-        <div class="col-md-6">
-<div class="card-body">
-            <h3 class="card-title text-lowercase">project 3</h3>
-            <p class="card-text">a project that redirects to another website</p>
-            <div class="row ml-1 mr-1 p-0"></div>
+        <div class="card-body">
+          <h2 class="card-title text-lowercase">project 3</h2>
+          <p class="card-text">a project that redirects to another website</p>
+          <div class="row ml-1 mr-1 p-0">
           </div>
         </div>
       </div>
-    </div>
-  </a>
+    </a>
 </div>
-
-    </div>
   </div>
   <h2 class="category">personal</h2>
   <!-- Generate cards for each project -->
-  <div class="container">
-    <div class="row row-cols-2">
-<div class="card-item col">
-<a href="/projets/4_project/"><div class="card hoverable">
-      <div class="row g-0">
-<div class="col-md-12">
-<div class="card-body">
-            <h3 class="card-title text-lowercase">project 4</h3>
-            <p class="card-text">another without an image</p>
-            <div class="row ml-1 mr-1 p-0"></div>
+  <div class="grid">
+<!-- _includes/projects.html -->
+<div class="grid-sizer"></div>
+<div class="grid-item">
+  <a href="/projets/piano/">
+      <div class="card hoverable">
+<figure>
+
+  <picture>
+    
+    <source class="responsive-img-srcset" media="(max-width: 480px)" srcset="/assets/img/augustin_piano-480.webp"></source>
+    <source class="responsive-img-srcset" media="(max-width: 800px)" srcset="/assets/img/augustin_piano-800.webp"></source>
+    <source class="responsive-img-srcset" media="(max-width: 1400px)" srcset="/assets/img/augustin_piano-1400.webp"></source>
+    
+
+    <!-- Fallback to the original file -->
+    <img src="/assets/img/augustin_piano.png" width="auto" height="auto" alt="project thumbnail" onerror="this.onerror=null; $('.responsive-img-srcset').remove();">
+
+  </picture>
+
+</figure>
+
+        <div class="card-body">
+          <h2 class="card-title text-lowercase">Apprentissage du piano</h2>
+          <p class="card-text">Mon défi de découvrir la musique, le solfège et le piano à 21 ans sans rien y connaitre</p>
+          <div class="row ml-1 mr-1 p-0">
           </div>
         </div>
       </div>
-    </div>
-  </a>
+    </a>
 </div>
-<div class="card-item col">
-<a href="/projets/5_project/"><div class="card hoverable">
-      <div class="row g-0">
-<div class="card-img col-md-6">
-          <figure>
+<!-- _includes/projects.html -->
+<div class="grid-sizer"></div>
+<div class="grid-item">
+  <a href="/projets/4_project/">
+      <div class="card hoverable">
+        <div class="card-body">
+          <h2 class="card-title text-lowercase">project 4</h2>
+          <p class="card-text">another without an image</p>
+          <div class="row ml-1 mr-1 p-0">
+          </div>
+        </div>
+      </div>
+    </a>
+</div>
+<!-- _includes/projects.html -->
+<div class="grid-sizer"></div>
+<div class="grid-item">
+  <a href="/projets/5_project/">
+      <div class="card hoverable">
+<figure>
 
   <picture>
     
@@ -294,34 +313,29 @@
 
 </figure>
 
-        </div>
-        <div class="col-md-6">
-<div class="card-body">
-            <h3 class="card-title text-lowercase">project 5</h3>
-            <p class="card-text">a project with a background image</p>
-            <div class="row ml-1 mr-1 p-0"></div>
+        <div class="card-body">
+          <h2 class="card-title text-lowercase">project 5</h2>
+          <p class="card-text">a project with a background image</p>
+          <div class="row ml-1 mr-1 p-0">
           </div>
         </div>
       </div>
-    </div>
-  </a>
+    </a>
 </div>
-<div class="card-item col">
-<a href="/projets/6_project/"><div class="card hoverable">
-      <div class="row g-0">
-<div class="col-md-12">
-<div class="card-body">
-            <h3 class="card-title text-lowercase">project 6</h3>
-            <p class="card-text">a project with no image</p>
-            <div class="row ml-1 mr-1 p-0"></div>
+<!-- _includes/projects.html -->
+<div class="grid-sizer"></div>
+<div class="grid-item">
+  <a href="/projets/6_project/">
+      <div class="card hoverable">
+        <div class="card-body">
+          <h2 class="card-title text-lowercase">project 6</h2>
+          <p class="card-text">a project with no image</p>
+          <div class="row ml-1 mr-1 p-0">
           </div>
         </div>
       </div>
-    </div>
-  </a>
+    </a>
 </div>
-
-    </div>
   </div>
 </div>
 
@@ -336,7 +350,7 @@
     <footer class="fixed-bottom">
       <div class="container mt-0">
         © Copyright 2023 Augustin  Bar. Powered by <a href="https://jekyllrb.com/" target="_blank" rel="external nofollow noopener">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio" rel="external nofollow noopener" target="_blank">al-folio</a> theme. Hosted by <a href="https://pages.github.com/" target="_blank" rel="external nofollow noopener">GitHub Pages</a>.
-Last updated: April 28, 2023.
+Last updated: May 01, 2023.
       </div>
     </footer>
 
