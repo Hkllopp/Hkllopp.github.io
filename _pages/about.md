@@ -14,8 +14,8 @@ profile:
   #   <p>123 your address street</p>
   #   <p>Your City, State 12345</p>
   address: >
-    <p>8 allée Joseph Roumanille</p>
-    <p>26700 Pierrelatte, France</p>
+    <p>13 rue de la Rosière</p>
+    <p>69008 Lyon 8ème, France</p>
 
 news: false  # includes a list of news items
 latest_posts: false  # includes a list of the newest posts
