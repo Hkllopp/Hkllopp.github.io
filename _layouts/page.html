@@ -1,16 +1,50 @@
 ---
 layout: default
 ---
+
+<style>
+  .navigation_arrow {
+    &:hover {
+      color: var(--global-theme-color);
+      text-decoration: none;
+    }
+
+    a {
+      color: inherit
+    }
+
+    p {
+      color: inherit
+    }
+  }
+</style>
 <!-- page.html -->
-        <div class="post">
+<div class="post">
 
-          <header class="post-header">
-            <h1 class="post-title">{{ page.title }}</h1>
-            <p class="post-description">{{ page.description }}</p>
-          </header>
+  <header class="post-header">
+    <h1 class="post-title">{{ page.title }}</h1>
+    <p class="post-description">{{ page.description }}</p>
+  </header>
 
-          <article>
-            {{ content }}
-          </article>
+  <article>
+    {{ content }}
+  </article>
 
-        </div>
+  <div class="row justify-content-sm-center">
+    {%- if page.previously -%}
+    <div class="col-sm mt-3 mt-md-0 navigation_arrow" style="text-align: center; display: inline-grid;">
+      <a href="{% link {{page.previously}} %}" title="previous_page" class="fas fa-arrow-left text-decoration-none">
+        <p style="font-size: initial">Precedent</p>
+      </a>
+    </div>
+    {%- endif -%}
+    {%- if page.followingly -%}
+    <div class="col-sm mt-3 mt-md-0 navigation_arrow" style="text-align: center; display: inline-grid;">
+      <a href="{% link {{page.followingly}} %}" title="following_page" class="fas fa-arrow-right text-decoration-none">
+        <p style="font-size: initial">Suite</p>
+      </a>
+    </div>
+    {%- endif -%}
+  </div>
+
+</div>
