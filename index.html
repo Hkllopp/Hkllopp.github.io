@@ -142,26 +142,54 @@
 </figure>
 
             <div class="address">
-              <p>8 allée Joseph Roumanille</p> <p>26700 Pierrelatte, France</p>
+              <p>13 rue de la Rosière</p> <p>69008 Lyon 8ème, France</p>
 
             </div>
           </div>
 
           <div class="clearfix">
-            <p>Je m’appelle Augustin BAR et j’ai 25 ans.</p>
+            <p>Je m’appelle Augustin BAR et j’ai <span id="age">calcul en cours…</span> ans.</p>
 
-<p>Je vis actuellement en Espagne, à Grenade, où j’ai décidé d’aller vivre quelques mois pour suivre ma copine et découvrir la culture.
-Je reviendrai beintôt à lyon, ville dans laquelle j’ai fait la majorité de mes études, que j’apprécie particulièrement pour son dynamisme et son efervescence. Malgré le fait que j’ai vécu principalement en AURA, à l’avenir, je souhaite déménager temporairement ou de facon permanente dans un autre pays pour rencontrer du monde. L’espagne n’est qu’un avant goût de ce qui m’attend autre part !</p>
+<p>Après avoir vécu une période en Espagne, je suis finalement de retour à Lyon, ville dans laquelle j’ai fait la majorité de mes études, que j’apprécie particulièrement pour son dynamisme et son efervescence. Bien que j’ai vécu principalement en Rhônes-Alpes, à l’avenir, je souhaiterai déménager temporairement ou de facon permanente dans un autre pays pour rencontrer du monde. L’Espagne n’était qu’un avant goût de ce qui m’attend autre part !</p>
 
-<p>Malgré mes études d’ingénieur informatique, je ne me définis pas uniquement comme un scientifique, un technique ou un manager et j’ai du mal à me restreindre à un seul domaine d’activité ou à une passion. J’ai un attrait pour les sciences et la logique mais aussi des passions diversifiées pour les arts ou le sport. J’ai souvent beaucoup (trop) de projets en même temps, mais c’est ce qui me motive à continuer à apprendre !</p>
+<p>Malgré mon parcours d’ingénieur informatique et data scientist, je ne me définis pas uniquement comme un scientifique, un technique ou un manager et j’ai du mal à me restreindre à un seul domaine d’activité ou à une passion. J’ai un attrait pour les sciences et la logique mais aussi des passions diversifiées pour les arts ou le sport. J’ai souvent beaucoup (trop) de projets en même temps, mais c’est ce qui me motive à continuer à apprendre et à m’améliorer !</p>
 
 <p>Je n’ai pas l’intention de révolutionner le monde mais simplement de le rendre meilleur, à mon échelle, en mettant à profit mes sensibilités et mes connaissances.</p>
 
 <p>Pour moi, être curieux et ouvert d’esprit est indispensable à tout être humain complet et je pense qu’il faut savoir concilier humilité et affirmation pour se forger une personnalité, des connaissances et des avis cohérents. L’écoute et le débat sont deux éléments essentiels au changement, tant qu’ils sont faits avec une intention sincère, batie de respect et d’ouverture d’esprit.</p>
 
-<p>Je ne concois pas ma vie au travail, à me détruire durant des heures supplémentaires. Par contre, je donnerai le meilleur de moi-même dans des projets dans lesquels j’ai foi, qui suivent mes valeurs et savent me fournir des défis stimulants. Je ne suis pas prêt à enrichir des actionnaires et des multinationnales et je sélectionnerai minutieusement les gens avec qui je veux travailler. Je préfère une vie modeste mais épanouissante plutôt qu’un salaire généreux mais qui rentre en contradiction avec ma morale.</p>
+<p>Je ne concois pas ma vie au travail, à m’épuiser à faire des heures supplémentaires à répétition. Par contre, je donnerai le meilleur de moi-même dans des projets dans lesquels j’ai foi, qui suivent mes valeurs et savent me fournir des défis stimulants. Je ne suis pas prêt à enrichir des actionnaires et des multinationnales et je sélectionnerai minutieusement les gens avec qui je veux travailler. Je préfère une vie modeste mais épanouissante plutôt qu’un salaire généreux mais qui rentre en contradiction avec ma morale.</p>
 
-<p>Je serai toujours honoré de rencontrer du monde, d’apprendre des autres et aux autes. C’est pour moi inconcevable d’avancer seul.</p>
+<p>Je serai toujours honoré de rencontrer du monde, d’apprendre des autres et aux autres. C’est pour moi inconcevable d’avancer seul.</p>
+
+<script>
+  // Calcul de l'âge en temps réel
+  function calculateAge(birthDate) {
+    var today = new Date();
+    var age = today.getFullYear() - birthDate.getFullYear();
+    if (today.getMonth() < birthDate.getMonth() || (today.getMonth() === birthDate.getMonth() && today.getDate() < birthDate.getDate())) {
+      age--;
+    }
+    document.getElementById('age').textContent = age;
+  }
+  var birthDate = new Date('1997-12-28');
+
+  // Appeler la fonction pour calculer et afficher l'âge
+  calculateAge(birthDate);
+</script>
+
+<!-- Je vis actuellement en Espagne, à Grenade, où j'ai décidé d'aller vivre quelques mois pour suivre ma copine et découvrir la culture.
+Je reviendrai beintôt à lyon, ville dans laquelle j'ai fait la majorité de mes études, que j'apprécie particulièrement pour son dynamisme et son efervescence. Malgré le fait que j'ai vécu principalement en AURA, à l'avenir, je souhaite déménager temporairement ou de facon permanente dans un autre pays pour rencontrer du monde. L'espagne n'est qu'un avant goût de ce qui m'attend autre part !
+
+Malgré mes études d'ingénieur informatique, je ne me définis pas uniquement comme un scientifique, un technique ou un manager et j'ai du mal à me restreindre à un seul domaine d'activité ou à une passion. J'ai un attrait pour les sciences et la logique mais aussi des passions diversifiées pour les arts ou le sport. J'ai souvent beaucoup (trop) de projets en même temps, mais c'est ce qui me motive à continuer à apprendre !
+
+Je n'ai pas l'intention de révolutionner le monde mais simplement de le rendre meilleur, à mon échelle, en mettant à profit mes sensibilités et mes connaissances.
+
+Pour moi, être curieux et ouvert d'esprit est indispensable à tout être humain complet et je pense qu'il faut savoir concilier humilité et affirmation pour se forger une personnalité, des connaissances et des avis cohérents. L'écoute et le débat sont deux éléments essentiels au changement, tant qu'ils sont faits avec une intention sincère, batie de respect et d'ouverture d'esprit.
+
+Je ne concois pas ma vie au travail, à me détruire durant des heures supplémentaires. Par contre, je donnerai le meilleur de moi-même dans des projets dans lesquels j'ai foi, qui suivent mes valeurs et savent me fournir des défis stimulants. Je ne suis pas prêt à enrichir des actionnaires et des multinationnales et je sélectionnerai minutieusement les gens avec qui je veux travailler. Je préfère une vie modeste mais épanouissante plutôt qu'un salaire généreux mais qui rentre en contradiction avec ma morale.
+
+Je serai toujours honoré de rencontrer du monde, d'apprendre des autres et aux autes. C'est pour moi inconcevable d'avancer seul. -->
 
 <!-- Je m'appelle Augustin BAR et j'ai 25 ans.
 
@@ -195,18 +223,31 @@ Link to your social media connections, too. This theme is set up to use [Font Aw
           <!-- Social -->
             <div class="social">
               <div class="contact-icons">
-                <div style="text-align: center; display: inline-grid;">
-    <a href="mailto:%62%61%72.%61%75%67%75%73%74%69%6E.%70%72%6F@%67%6D%61%69%6C.%63%6F%6D" title="email_pro"><i class="fas fa-envelope"></i></a><p style="font-size: initial; margin-top: -30px">pro</p>
+                <style>
+        .sousenveloppe {
+                &:hover {
+                        color: var(--global-theme-color);
+                        text-decoration: none;
+                }
+
+                p {
+                        color: inherit
+                }
+        }
+</style>
+<div style="text-align: center; display: inline-grid;" class="sousenveloppe">
+        <a href="mailto:%62%61%72.%61%75%67%75%73%74%69%6E.%70%72%6F@%67%6D%61%69%6C.%63%6F%6D" title="email_pro"><i class="fas fa-envelope"></i></a>
+        <p style="font-size: initial; margin-top: -22px" class="fab">pro</p>
 </div>
-<div style="text-align: center; display: inline-grid;">
-    <a href="mailto:%62%61%72%61%75%67%75%73%74%69%6E%32%36@%67%6D%61%69%6C.%63%6F%6D" title="email_perso"><i class="fas fa-envelope"></i></a><p style="font-size: initial; margin-top: -30px">perso</p>
+<div style="text-align: center; display: inline-grid;" class="sousenveloppe">
+        <a href="mailto:%62%61%72%61%75%67%75%73%74%69%6E%32%36@%67%6D%61%69%6C.%63%6F%6D" title="email_perso"><i class="fas fa-envelope"></i></a>
+        <p style="font-size: initial; margin-top: -22px" class="fab">perso</p>
 </div>
-            <a href="https://wa.me/33602286926" title="whatsapp" rel="external nofollow noopener" target="_blank"><i class="fab fa-whatsapp"></i></a>
-            <a href="https://github.com/Hkllopp" title="GitHub" rel="external nofollow noopener" target="_blank"><i class="fab fa-github"></i></a>
-            <a href="https://www.linkedin.com/in/augustin-bar" title="LinkedIn" rel="external nofollow noopener" target="_blank"><i class="fab fa-linkedin"></i></a>
-            <a href="https://twitter.com/hkllopp" title="Twitter" rel="external nofollow noopener" target="_blank"><i class="fab fa-twitter"></i></a>
-            <a href="/feed.xml" title="RSS Feed"><i class="fas fa-rss-square"></i></a>
-            
+<a href="https://wa.me/33602286926" title="whatsapp" rel="external nofollow noopener" target="_blank"><i class="fab fa-whatsapp"></i></a>
+<a href="https://github.com/Hkllopp" title="GitHub" rel="external nofollow noopener" target="_blank"><i class="fab fa-github"></i></a>
+<a href="https://www.linkedin.com/in/augustin-bar" title="LinkedIn" rel="external nofollow noopener" target="_blank"><i class="fab fa-linkedin"></i></a>
+<a href="https://twitter.com/hkllopp" title="Twitter" rel="external nofollow noopener" target="_blank"><i class="fab fa-twitter"></i></a>
+<a href="/feed.xml" title="RSS Feed"><i class="fas fa-rss-square"></i></a>
 
               </div>
 
@@ -227,7 +268,7 @@ Link to your social media connections, too. This theme is set up to use [Font Aw
     <footer class="fixed-bottom">
       <div class="container mt-0">
         © Copyright 2023 Augustin  Bar. Powered by <a href="https://jekyllrb.com/" target="_blank" rel="external nofollow noopener">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio" rel="external nofollow noopener" target="_blank">al-folio</a> theme. Hosted by <a href="https://pages.github.com/" target="_blank" rel="external nofollow noopener">GitHub Pages</a>. Photos from <a href="https://unsplash.com" target="_blank" rel="external nofollow noopener">Unsplash</a>.
-Last updated: June 12, 2023.
+Last updated: October 01, 2023.
       </div>
     </footer>
 

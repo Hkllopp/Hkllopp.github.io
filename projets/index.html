@@ -112,21 +112,127 @@
     <!-- Content -->
     <div class="container mt-5">
       
-        <!-- page.html -->
-        <div class="post">
+        <style>
+  .navigation_arrow {
+    &:hover {
+      color: var(--global-theme-color);
+      text-decoration: none;
+    }
 
-          <header class="post-header">
-            <h1 class="post-title">Projets</h1>
-            <p class="post-description">Une liste non exhaustive de mes projets</p>
-          </header>
+    a {
+      color: inherit
+    }
 
-          <article>
-            <!-- pages/projects.md -->
+    p {
+      color: inherit
+    }
+  }
+</style>
+<!-- page.html -->
+<div class="post">
+
+  <header class="post-header">
+    <h1 class="post-title">Projets</h1>
+    <p class="post-description">Une liste non exhaustive de mes projets</p>
+  </header>
+
+  <article>
+    <!-- pages/projects.md -->
 <div class="projects">
   <!-- Display categorized projects -->
   <h2 class="category">professional</h2>
   <!-- Generate cards for each project -->
   <div class="grid">
+<!-- _includes/projects.html -->
+<div class="grid-sizer"></div>
+<div class="grid-item">
+  <a href="/projets/enseignement_secondaire/">
+      <div class="card hoverable">
+<figure>
+
+  <picture>
+    
+    <source class="responsive-img-srcset" media="(max-width: 480px)" srcset="/assets/img/augustin_eleve-480.webp"></source>
+    <source class="responsive-img-srcset" media="(max-width: 800px)" srcset="/assets/img/augustin_eleve-800.webp"></source>
+    <source class="responsive-img-srcset" media="(max-width: 1400px)" srcset="/assets/img/augustin_eleve-1400.webp"></source>
+    
+
+    <!-- Fallback to the original file -->
+    <img src="/assets/img/augustin_eleve.jpeg" width="auto" height="auto" alt="project thumbnail" onerror="this.onerror=null; $('.responsive-img-srcset').remove();">
+
+  </picture>
+
+</figure>
+
+        <div class="card-body">
+          <h2 class="card-title text-lowercase">Mes années de lycée</h2>
+          <p class="card-text">Une revue de mon apprentissage dans la seonde moitié du secondaire</p>
+          <div class="row ml-1 mr-1 p-0">
+          </div>
+        </div>
+      </div>
+    </a>
+</div>
+<!-- _includes/projects.html -->
+<div class="grid-sizer"></div>
+<div class="grid-item">
+  <a href="/projets/formation_ingenieur_informatique/">
+      <div class="card hoverable">
+<figure>
+
+  <picture>
+    
+    <source class="responsive-img-srcset" media="(max-width: 480px)" srcset="/assets/img/augustin_eleve-480.webp"></source>
+    <source class="responsive-img-srcset" media="(max-width: 800px)" srcset="/assets/img/augustin_eleve-800.webp"></source>
+    <source class="responsive-img-srcset" media="(max-width: 1400px)" srcset="/assets/img/augustin_eleve-1400.webp"></source>
+    
+
+    <!-- Fallback to the original file -->
+    <img src="/assets/img/augustin_eleve.jpeg" width="auto" height="auto" alt="project thumbnail" onerror="this.onerror=null; $('.responsive-img-srcset').remove();">
+
+  </picture>
+
+</figure>
+
+        <div class="card-body">
+          <h2 class="card-title text-lowercase">Formation d'Ingénieur en informatique</h2>
+          <p class="card-text">Comment j'ai obtenu un diplôme d'ingénieur via 3 parcours différents</p>
+          <div class="row ml-1 mr-1 p-0">
+          </div>
+        </div>
+      </div>
+    </a>
+</div>
+<!-- _includes/projects.html -->
+<div class="grid-sizer"></div>
+<div class="grid-item">
+  <a href="/projets/formation_data_scientist/">
+      <div class="card hoverable">
+<figure>
+
+  <picture>
+    
+    <source class="responsive-img-srcset" media="(max-width: 480px)" srcset="/assets/img/augustin_eleve-480.webp"></source>
+    <source class="responsive-img-srcset" media="(max-width: 800px)" srcset="/assets/img/augustin_eleve-800.webp"></source>
+    <source class="responsive-img-srcset" media="(max-width: 1400px)" srcset="/assets/img/augustin_eleve-1400.webp"></source>
+    
+
+    <!-- Fallback to the original file -->
+    <img src="/assets/img/augustin_eleve.jpeg" width="auto" height="auto" alt="project thumbnail" onerror="this.onerror=null; $('.responsive-img-srcset').remove();">
+
+  </picture>
+
+</figure>
+
+        <div class="card-body">
+          <h2 class="card-title text-lowercase">Formation de Data Scientist</h2>
+          <p class="card-text">Une spécialisation complète</p>
+          <div class="row ml-1 mr-1 p-0">
+          </div>
+        </div>
+      </div>
+    </a>
+</div>
 <!-- _includes/projects.html -->
 <div class="grid-sizer"></div>
 <div class="grid-item">
@@ -151,36 +257,6 @@
         <div class="card-body">
           <h2 class="card-title text-lowercase">project 1</h2>
           <p class="card-text">a project with a background image</p>
-          <div class="row ml-1 mr-1 p-0">
-          </div>
-        </div>
-      </div>
-    </a>
-</div>
-<!-- _includes/projects.html -->
-<div class="grid-sizer"></div>
-<div class="grid-item">
-  <a href="/projets/scolarite/">
-      <div class="card hoverable">
-<figure>
-
-  <picture>
-    
-    <source class="responsive-img-srcset" media="(max-width: 480px)" srcset="/assets/img/augustin_eleve-480.webp"></source>
-    <source class="responsive-img-srcset" media="(max-width: 800px)" srcset="/assets/img/augustin_eleve-800.webp"></source>
-    <source class="responsive-img-srcset" media="(max-width: 1400px)" srcset="/assets/img/augustin_eleve-1400.webp"></source>
-    
-
-    <!-- Fallback to the original file -->
-    <img src="/assets/img/augustin_eleve.jpeg" width="auto" height="auto" alt="project thumbnail" onerror="this.onerror=null; $('.responsive-img-srcset').remove();">
-
-  </picture>
-
-</figure>
-
-        <div class="card-body">
-          <h2 class="card-title text-lowercase">Parcours éducatif et professionel</h2>
-          <p class="card-text">À propos de mon parcours, de ma scolarité à ma professionnalisation</p>
           <div class="row ml-1 mr-1 p-0">
           </div>
         </div>
@@ -304,7 +380,7 @@
 
         <div class="card-body">
           <h2 class="card-title text-lowercase">Création de jeux vidéos</h2>
-          <p class="card-text">Comment j'ai appris à coder un jeu en 48h contre 22 000 personnes</p>
+          <p class="card-text">Comment j'ai appris à coder un jeu en 48h avec 22 000 personnes</p>
           <div class="row ml-1 mr-1 p-0">
           </div>
         </div>
@@ -372,10 +448,11 @@
   </div>
 </div>
 
-          </article>
+  </article>
 
-        </div>
+  <div class="row justify-content-sm-center"></div>
 
+</div>
       
     </div>
 
@@ -383,7 +460,7 @@
     <footer class="fixed-bottom">
       <div class="container mt-0">
         © Copyright 2023 Augustin  Bar. Powered by <a href="https://jekyllrb.com/" target="_blank" rel="external nofollow noopener">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio" rel="external nofollow noopener" target="_blank">al-folio</a> theme. Hosted by <a href="https://pages.github.com/" target="_blank" rel="external nofollow noopener">GitHub Pages</a>. Photos from <a href="https://unsplash.com" target="_blank" rel="external nofollow noopener">Unsplash</a>.
-Last updated: June 12, 2023.
+Last updated: October 01, 2023.
       </div>
     </footer>
 
