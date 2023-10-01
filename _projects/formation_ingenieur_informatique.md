@@ -1,8 +1,8 @@
 ---
 layout: page
-title: Formation d'Ingénieur en informatique
+title: 2017-2021 Apprenti Ingénieur
 description: Comment j'ai obtenu un diplôme d'ingénieur via 3 parcours différents
-img: assets/img/augustin_eleve.jpeg
+img: assets/img/augustin_etudiant.jpg
 importance: 2
 category: professional
 previously:  _projects/enseignement_secondaire.md

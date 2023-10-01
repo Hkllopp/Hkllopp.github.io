@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Mes années de lycée
+title: 2012-2016 Mes années lycée
 description: Une revue de mon apprentissage dans la seonde moitié du secondaire
 img: assets/img/augustin_eleve.jpeg
 importance: 1

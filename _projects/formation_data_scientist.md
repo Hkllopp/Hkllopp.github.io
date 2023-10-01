@@ -1,8 +1,8 @@
 ---
 layout: page
-title: Formation de Data Scientist
+title: 2022-2023 Formation Data Scientist
 description: Une spécialisation complète
-img: assets/img/augustin_eleve.jpeg
+img: assets/img/augustin_ingenieur.jpg
 importance: 3
 category: professional
 previously: _projects/formation_ingenieur_informatique.md

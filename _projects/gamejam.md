@@ -2,7 +2,7 @@
 layout: page
 title: Création de jeux vidéos
 description: Comment j'ai appris à coder un jeu en 48h avec 22 000 personnes
-img: assets/img/augustin_piano.png
+img: assets/img/augustin_game_jam.jpg
 importance: 2
 category: personal
 ---
