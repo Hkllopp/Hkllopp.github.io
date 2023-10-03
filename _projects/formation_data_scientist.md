@@ -8,10 +8,6 @@ category: professional
 previously: _projects/formation_ingenieur_informatique.md
 ---
 
-<!-- TODO :
-- Manque la page Basta
-- Manque la page Freelance -->
-
 A la suite de mon école, je ne souhaite pas poursuivre en thèse. Pourtant, j'ai encore une envie très forte de me former sur le nouveau sujet qui me passion : l'intelligence artificielle.
 Plus j'apprends dessus et plus ca me passionne. C'est alors qu'en retournant sur un site mythique des informaticiens (OpenClassrooms anciennement Le Site du Zéro), je tombe sur une formation qui me fait rêver.
 
