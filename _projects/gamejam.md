@@ -43,10 +43,10 @@ Si jamais vous voulez essayer de créer un jeu vidéo avec des amis ou rencontre
          {% include figure.html path="assets/img/dead_link.png" title="dead_link" class="img-fluid rounded z-depth-1" %}
     </div>
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/goatNRoll.png" title="goatNRoll" class="img-fluid rounded z-depth-1" %}
+        {% include figure.html path="assets/img/goat_n_roll.png" title="goatNRoll" class="img-fluid rounded z-depth-1" %}
     </div>
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/employeeOfTheMonth.png" title="employeeOfTheMonth" class="img-fluid rounded z-depth-1" %}
+        {% include figure.html path="assets/img/employee_of_the_month.png" title="employeeOfTheMonth" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
