@@ -4,7 +4,7 @@ title: project 4
 description: another without an image
 img:
 importance: 10
-category: personal
+category: template
 ---
 
 Every project has a beautiful feature showcase page.

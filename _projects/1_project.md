@@ -4,7 +4,7 @@ title: project 1
 description: a project with a background image
 img: assets/img/12.jpg
 importance: 10
-category: professional
+category: template
 ---
 
 Every project has a beautiful feature showcase page.
